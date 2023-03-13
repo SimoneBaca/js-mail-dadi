@@ -6,6 +6,8 @@
 
 const buttonPlay = document.querySelector('.play');
 console.log(buttonPlay);
+let finalResult = document.querySelector('.result');
+
 buttonPlay.addEventListener('click',
     function () {
         const player1 = Math.floor(Math.random() * 6) + 1;
@@ -14,11 +16,14 @@ buttonPlay.addEventListener('click',
         console.log(playerPc);
 
         if (player1 > playerPc) {
-            console.log("win");   
+            console.log("win");  
+            finalResult.innerHTML = "You Win!"; 
         } else if (player1 === playerPc) {
             console.log("draw");
+            finalResult.innerHTML = "You Draw!";
         } else {
             console.log("lose");
+            finalResult.innerHTML = "You Lose!";
         }
     }
 
