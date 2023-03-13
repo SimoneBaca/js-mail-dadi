@@ -14,6 +14,10 @@ si ma noi cosa vogliamo fare?
 torniamo a scrivere in italiano
 proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"*/
 
+
+
+
+//MAIL-MAIL-MAIl.JS------------------------------------------------------------------------------
 const emailList = ['pino@gmail.com', 'tino@gmail.com', 'lino@gmail.com', 'gino@gmail.com'];
 console.log(emailList);
 
@@ -46,3 +50,6 @@ function()  {
 }
     
 )
+
+//MAIL-MAIL-MAIl.JS------------------------------------------------------------------------------
+
